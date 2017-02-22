@@ -1,0 +1,12 @@
+platform :ios, '8.0'
+use_frameworks!
+#use_frameworks!个别需要用到它，比如reactiveCocoa
+
+target ‘ATMecs’ do
+  pod 'SwiftyJSON’
+  pod 'RxSwift'
+  pod 'Alamofire'
+  pod 'CryptoSwift’
+  pod 'Fabric'
+  pod 'Crashlytics'
+end
