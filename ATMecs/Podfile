@@ -9,4 +9,5 @@ target ‘ATMecs’ do
   pod 'CryptoSwift’
   pod 'Fabric'
   pod 'Crashlytics'
+  pod 'BaiduMapKit'
 end

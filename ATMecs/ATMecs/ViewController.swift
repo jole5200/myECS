@@ -10,7 +10,7 @@ import UIKit
 import Crashlytics
 
 class ViewController: UIViewController {
-
+    var _mapView: BMKMapView?
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,6 +19,9 @@ class ViewController: UIViewController {
         button.setTitle("Crash", for: UIControlState.normal)
         button.addTarget(self, action: #selector(crashButtonTapped(sender:)), for: UIControlEvents.touchUpInside)
         view.addSubview(button)
+        
+        _mapView = BMKMapView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height))
+        self.view.addSubview(_mapView!)
 
     }
 
@@ -31,5 +34,17 @@ class ViewController: UIViewController {
         Crashlytics.sharedInstance().crash()
     }
 
+    
+//    override func viewWillAppear(animated: Bool) {
+//        super.viewWillAppear(animated)
+//        _mapView?.viewWillAppear()
+//        _mapView?.delegate = self // 此处记得不用的时候需要置nil，否则影响内存的释放
+//    }
+//    
+//    override func viewWillDisappear(animated: Bool) {
+//        super.viewWillDisappear(animated)
+//        _mapView?.viewWillDisappear()
+//        _mapView?.delegate = nil // 不用时，置nil
+//    }
 }
 

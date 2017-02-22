@@ -37,6 +37,7 @@
 		7234A55D1E5D208100C174DE /* ATMecsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATMecsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7234A5611E5D208100C174DE /* ATMecsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATMecsUITests.swift; sourceTree = "<group>"; };
 		7234A5631E5D208100C174DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7234A5791E5D732700C174DE /* BMKSwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BMKSwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		7A2E06E2282D775D13516533 /* Pods-ATMecs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATMecs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ATMecs/Pods-ATMecs.debug.xcconfig"; sourceTree = "<group>"; };
 		8E7E6D14DD13EEF58B7EAE35 /* Pods-ATMecs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATMecs.release.xcconfig"; path = "Pods/Target Support Files/Pods-ATMecs/Pods-ATMecs.release.xcconfig"; sourceTree = "<group>"; };
 		C0929AF02E692EAB34D9A80E /* Pods_ATMecs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATMecs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +102,12 @@
 		7234A54B1E5D208000C174DE /* ATMecs */ = {
 			isa = PBXGroup;
 			children = (
+				7234A56D1E5D2EEC00C174DE /* Expand */,
+				7234A5741E5D2EEC00C174DE /* Main */,
+				7234A5751E5D2EEC00C174DE /* Resource */,
+				7234A5761E5D2EEC00C174DE /* SDKFile */,
+				7234A5771E5D2EEC00C174DE /* SystemConfig */,
+				7234A5781E5D2EEC00C174DE /* Vender */,
 				7234A54C1E5D208100C174DE /* AppDelegate.swift */,
 				7234A54E1E5D208100C174DE /* ViewController.swift */,
 				7234A5501E5D208100C174DE /* Main.storyboard */,
@@ -118,6 +125,145 @@
 				7234A5631E5D208100C174DE /* Info.plist */,
 			);
 			path = ATMecsUITests;
+			sourceTree = "<group>";
+		};
+		7234A56D1E5D2EEC00C174DE /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				7234A56E1E5D2EEC00C174DE /* Category */,
+				7234A56F1E5D2EEC00C174DE /* CustomControl */,
+				7234A5701E5D2EEC00C174DE /* DataBase */,
+				7234A5711E5D2EEC00C174DE /* Macros */,
+				7234A5721E5D2EEC00C174DE /* Network */,
+				7234A5731E5D2EEC00C174DE /* Tool */,
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		7234A56E1E5D2EEC00C174DE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7234A56F1E5D2EEC00C174DE /* CustomControl */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomControl;
+			sourceTree = "<group>";
+		};
+		7234A5701E5D2EEC00C174DE /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		7234A5711E5D2EEC00C174DE /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		7234A5721E5D2EEC00C174DE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		7234A5731E5D2EEC00C174DE /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		7234A5741E5D2EEC00C174DE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7234A57A1E5D7CA700C174DE /* Base */,
+				7234A57B1E5D7CA700C174DE /* Home */,
+				7234A57C1E5D7CA700C174DE /* Login */,
+				7234A57D1E5D7CA700C174DE /* Me */,
+				7234A57E1E5D7CA700C174DE /* Preview */,
+				7234A57F1E5D7CA700C174DE /* Test */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7234A5751E5D2EEC00C174DE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		7234A5761E5D2EEC00C174DE /* SDKFile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SDKFile;
+			sourceTree = "<group>";
+		};
+		7234A5771E5D2EEC00C174DE /* SystemConfig */ = {
+			isa = PBXGroup;
+			children = (
+				7234A5791E5D732700C174DE /* BMKSwiftDemo-Bridging-Header.h */,
+			);
+			path = SystemConfig;
+			sourceTree = "<group>";
+		};
+		7234A5781E5D2EEC00C174DE /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		7234A57A1E5D7CA700C174DE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		7234A57B1E5D7CA700C174DE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7234A57C1E5D7CA700C174DE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		7234A57D1E5D7CA700C174DE /* Me */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		7234A57E1E5D7CA700C174DE /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
+		7234A57F1E5D7CA700C174DE /* Test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -434,6 +580,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ATMdemotest.ATMecs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ATMecs/SystemConfig/BMKSwiftDemo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -447,6 +594,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ATMdemotest.ATMecs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ATMecs/SystemConfig/BMKSwiftDemo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
