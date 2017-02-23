@@ -14,7 +14,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Moya.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-ATMecs.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Result.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,17 +42,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0A78440C2FF7F7F699B477F37183A2A5</key>
+		<key>1215771836B84E9F9899950098D2FF80</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2BF9E1AABCC3E439E611EA4A009290B9</key>
+		<key>140C9FCBCA21EAEDC2C42F2F9ABBA745</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2EA5708BB2CB0362390966AE10BA23A0</key>
+		<key>52ACA0236F086E72B74F0A090A743D41</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,7 +62,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>6BD3979EF838B1BFFF5E324DB52DC30F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9B8B00C9954032E9F8F77140B822D331</key>
 		<dict>
 			<key>primary</key>
 			<true/>
