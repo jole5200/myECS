@@ -20,6 +20,11 @@ class ATMTabBarController: UITabBarController {
         let homeVC3 = UIViewController.init();
         let homeVC4 = UIViewController.init();
        
+        homeVC.view.backgroundColor = UIColor.white
+        homeVC2.view.backgroundColor = UIColor.white
+        homeVC3.view.backgroundColor = UIColor.white
+        homeVC4.view.backgroundColor = UIColor.white
+        
         
         self.setupChirdVc(vc: homeVC, title: "首页", normolImg: UIImage(named:"首页")!, selectedImg: UIImage(named:"首页-selected")!)
         
@@ -35,9 +40,10 @@ class ATMTabBarController: UITabBarController {
     
     
     private func setupChirdVc(vc:UIViewController,title:String,normolImg:UIImage,selectedImg:UIImage){
+        self.tabBar.tintColor = UIColor.orange
         vc.tabBarItem.title = title
-        vc.tabBarItem.image = normolImg
-        vc.tabBarItem.selectedImage = selectedImg
+        vc.tabBarItem.image = normolImg.withRenderingMode(UIImageRenderingMode.alwaysOriginal)
+        vc.tabBarItem.selectedImage = selectedImg.withRenderingMode(UIImageRenderingMode.alwaysOriginal)
         let navVC = UINavigationController.init(rootViewController: vc)
         self.addChildViewController(navVC)
         

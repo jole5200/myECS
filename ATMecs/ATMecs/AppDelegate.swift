@@ -26,6 +26,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate ,BMKGeneralDelegate {
         if ret == false {
             NSLog("manager start failed!")
         }
+        
+        window?.rootViewController = ATMTabBarController()
+        window?.makeKeyAndVisible()
         return true
     }
 
